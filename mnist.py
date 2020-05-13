@@ -1,9 +1,9 @@
+import matplotlib.pyplot as plt
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import SGD
-import matplotlib.pyplot as plt
 
 # Load in mnist data set and perform train/test split
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
